@@ -43,8 +43,48 @@ input {
   border-radius: 2px;
   background-color: #c3073f;
   border-color: var(--primary-light);
+  cursor: pointer;
+  margin-bottom: 2rem;
 }
 
 #output-msg {
   text-align: center;
+  margin-bottom: 11rem;
+}
+
+.footer-class {
+  text-align: center;
+  color: white;
+}
+
+.footer-class a {
+  padding: 10rem 0rem 0rem 0rem;
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--primary-light);
+}
+
+.footer-class a:hover {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+
+.footer-class ul {
+  padding: 1rem;
+}
+
+.footer-class li {
+  display: block;
+  font-weight: bold;
+  margin: 2rem;
+}
+
+@media only screen and (max-width: 480px) {
+  .footer-class li {
+    display: inline;
+    font-weight: bold;
+    margin: 0rem;
+    padding: 0.5rem;
+  }
 }
